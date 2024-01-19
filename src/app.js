@@ -67,3 +67,6 @@ mongoose_1.default
  *
  *
  */
+app.listen(process.env.PORT, () => {
+    console.log(`Server Is Running On Port ${process.env.PORT}`);
+});
